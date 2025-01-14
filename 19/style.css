@@ -1,0 +1,111 @@
+@charset "UTF-8";
+@font-face {
+    font-family: android;
+    src: url('fontes/idroid.otf') format('opentype');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: bebas neue;
+    src: url('fontes/RobotoCondensed-VariableFont_wght.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+* {
+    margin: 0px 0px 30px 0px;
+    padding: 0px 0px 0px 0px;
+    box-sizing: border-box;
+}
+
+html, body {
+    width: 100%;
+    height: 100%;
+}
+
+body {
+    background-color: #84E1AD;
+}
+
+#cabecalho {
+    background-image: linear-gradient(to bottom, #36C174, #1A5C38);
+    color: white;
+    background-size: cover;
+    background-repeat: no-repeat;
+    text-align: center;
+}
+
+.titulo1 {
+    text-align: center;
+    padding: 15px 0px 0px 0px;
+    font-family: 'bebas neue', Times, serif;
+    box-shadow: 0px 0px 0px black;
+}
+
+.descricao {
+    font-family: Arial, Helvetica, sans-serif;
+    color: #c1f0d6;
+}
+
+nav {
+    text-align: left;
+    padding: 10px;
+}
+
+nav > a {
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: none;
+    color: #bfffdb;
+    padding: 10px;
+}
+
+nav > a:hover {
+    background-color: #36C174;
+    border-radius: 10%;
+    color: #1A5C38;
+}
+
+#corpoconteudo {
+    background-color: white;
+    width: 75%;
+    margin: auto;
+    padding: 0px 10px 0px 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-indent: 15px;
+    text-align: justify;
+    box-shadow: 1px 1px 11px 7px rgba(0, 0, 0, 0.171);
+}
+
+.titulo2 {
+    font-family: 'android', Times, serif;
+    padding: 20px 0px 0px 0px;
+    color: #1A5C38;
+}
+
+h2 {
+    font-family: 'android', Times, serif;
+    background-image: linear-gradient(to right, #84E1AD, white);
+    padding: 8px;
+    color: #1A5C38;
+}
+
+img {
+    display: block;
+    margin: auto;
+    padding: 0px 0px 30px 0px;
+}
+
+iframe {
+    display: block;
+    margin: auto;
+    padding: 0px 0px 30px 0px;
+}
+
+.boldsolto {
+    font-style: bold;
+    color: #1A5C38;
+}
+
+.video {
+    background-color: #1A5C38;
+}
