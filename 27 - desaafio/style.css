@@ -11,10 +11,18 @@ table {
     border-collapse: collapse;
 }
 
+thead {
+    background-color: gray;
+    color: white;
+}
+
+.cabecalho {
+    text-align: center;
+}
+
 th {
     border: 2px solid black;
     padding: 10px;
-    text-align: center;
 }
 
 td {
